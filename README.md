@@ -45,11 +45,11 @@ Poniżej znajdują się kluczowe wykresy przedstawiające szczegółowe metryki 
 
 ### 2. Taktyczne Raportowanie (MS Excel)
 * Agregacja i eksport wyników segmentacji z bazy SQL bezpośrednio do arkusza menedżerskiego.
-* Zbudowanie zaawansowanych **Tabel Przestawnych** analizujących przychody generowane przez poszczególne pokolenia (Gen Z, Millenialsi, Gen X, Boomersi).
+* Zbudowanie zaawansowanych **Tabel Przestawnych** analizujących przychody generowane przez klientów w zależności od ich wieku (z podziałem na grupy demograficzne).
 * Wdrożenie **Fragmentatorów (Slicerów)**, dzięki którym użytkownik końcowy może jednym kliknięciem filtrować wykresy według typu klienta (Corporate / Regular / New).
 
 ### 3. Wizualizacja i Modelowanie (Power BI)
-* Zaimportowanie danych i zbudowanie miar w języku **DAX** (Suma Przychodów, Łączny Budżet Marketingowy, Średnia Satysfakcja Klienta).
+* Zaimportowanie danych i zbudowanie miar w języku **DAX** (`Suma Przychodów`, `Suma Budżetu`, `Średnia Satysfakcja`).
 * Stworzenie intuicyjnego interfejsu z kartami KPI, ułatwiającego kadrze zarządzającej błyskawiczny przegląd kondycji finansowej firmy.
 
 ---
