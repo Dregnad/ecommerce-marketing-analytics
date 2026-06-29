@@ -7,6 +7,8 @@ Celem projektu jest dostarczenie kluczowych wniosków biznesowych (actionable in
 
 Projekt odtwarza pełną ścieżkę pracy analityka danych (Data Analyst / BI Engineer) przy użyciu stosu technologicznego: **PostgreSQL (SQL)**, **MS Excel** oraz **Power BI**.
 
+### 📊 Źródło danych
+Dane wykorzystane w projekcie pochodzą z platformy Kaggle: [Marketing & Sales Dataset by Abdelfattah Ibrahim](https://www.kaggle.com/datasets/abdelfattahibrahim/marketing-sales-dataset).
 ---
 
 ## 🛠️ Stos technologiczny i narzędzia
