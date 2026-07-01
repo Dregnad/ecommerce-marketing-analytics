@@ -86,38 +86,37 @@ Druga strona raportu koncentruje się na efektywności alokacji kapitału reklam
 ![Struktura wydatków marketingowych](dashboard_page_2.png)
 
 #### 🔎 Key Insights
-* **Kluczowy kanał Online:** Sprzedaż internetowa (*Online*) odpowiada za największy udział w budżecie marketingowym (31,03% / 110,04 mln zł) i generuje najwyższe zwroty finansowe (179 mln zł).
-* **Stabilna satysfakcja:** Średnia satysfakcja klientów utrzymuje się na stałym, zdrowym poziomie 3,50/5, co świadczy o dobrej powtarzalności procesów obsługi.
-* **Niska efektywność Social Media:** Kanał *Social Media* zanotował najniższe nakłady budżetowe (84,14 mln zł), przekładając się równocześnie na najsłabszy wynik sprzedażowy (56 mln zł).
+* **Dominacja kanału Online:** Sprzedaż internetowa (*Online*) generuje najwyższy przychód – odpowiada za **31,03% udziału w strukturze sprzedaży (110,04 mln zł)**. Wynika to bezpośrednio z faktu, że na ten obszar przeznaczono największy budżet marketingowy, wynoszący **179 mln zł**.
+* **Stabilna satysfakcja:** Średnia satysfakcja klientów utrzymuje się na stałym, zdrowym poziomie 3,50/5, co świadczy o stabilnej i powtarzalnej jakości obsługi we wszystkich kanałach.
+* **Niskie nakłady na Social Media:** Kanał *Social Media* notuje najniższe wyniki w całym zestawieniu. Wygenerował zaledwie **33,52 mln zł przychodu (9,45% udziału)**, co jest bezpośrednio powiązane z najniższym budżetem marketingowym ulokowanym w tym kanale (**56 mln zł**).
 
 #### 💡 Business Recommendation
-> Wysokie budżety na kanały *Online* oraz *Retail Store* przynoszą stabilne i zamierzone efekty. Należy natomiast zrewidować strategię dla kanału *Social Media* — zamiast ciągłego obniżania budżetu, warto wdrożyć dedykowane, bardziej precyzyjne kampanie targetowane na zaangażowanie (np. influencer marketing), aby podnieść współczynnik konwersji w tym kanale.
+> Wysokie budżety ulokowane w kanałach *Online* oraz *Retail Store* przynoszą stabilne i najwyższe zwroty finansowe. Niski wynik kanału *Social Media* nie wynika z jego nieskuteczności, a z wyraźnego niedofinansowania (budżet jest ponad 3-krotnie mniejszy niż w przypadku Online). Rekomenduje się stopniową relokację części środków na rzecz kampanii w *Social Media* w celu aktywacji tego niedoszacowanego kanału dotarcia i podniesienia jego konwersji.
 
 ---
 
 ## 📈 Key Business Insights Summary
 
 ### 1. Sales Optimization
-Identyfikacja kategorii *Electronics* jako lidera przychodów pozwala na lepsze zarządzanie przestrzenią magazynową i optymalizację marżowości produktów.
+Identyfikacja kategorii *Electronics* jako zdecydowanego lidera przychodów na pierwszej stronie raportu pozwala firmie na lepsze zarządzanie zatowarowaniem, optymalizację marżowości oraz planowanie przestrzeni magazynowej przed szczytami sprzedażowymi.
 
 ### 2. Marketing Effectiveness
-Dzięki zestawieniu struktury wydatków z przychodami w kanałach, firma zyskała twarde dane do optymalizacji budżetów promocyjnych i relokacji środków z kanałów mniej efektywnych.
+Dzięki bezpośredniemu zestawieniu struktury przychodów z budżetami marketingowymi, biznes zyskał twarde dane pozwalające ocenić rentowność każdego kanału. Wyraźnie widać, że inwestycje w kanały cyfrowe (*Online*) i tradycyjne (*Retail Store*) skutecznie napędzają sprzedaż.
 
 ### 3. Customer Understanding
-Stabilny wskaźnik satysfakcji (3,50) stanowi solidny punkt odniesienia (benchmark) do testowania nowych akcji lojalnościowych i mierzenia ich wpływu na zadowolenie klientów.
+Utrzymanie wskaźnika średniej satysfakcji na poziomie 3,50 stanowi świetny punkt odniesienia (benchmark). Umożliwi to działom Customer Success precyzyjne mierzenie wpływu przyszłych programów lojalnościowych lub zmian w polityce obsługi na zadowolenie klienta.
 
 ### 4. Data-Driven Decisions
-Rozbity na dwa ekrany dashboard Power BI dostarcza pełnej i przejrzystej informacji zarządczej, skracając czas potrzebny na podjęcie kluczowych decyzji biznesowych.
-
+Rozbicie raportu na dwa dedykowane widoki (finansowy i marketingowy) wyeliminowało chaos informacyjny. Dashboard w obecnej formie dostarcza kadrze zarządzającej przejrzystych wskaźników KPI, skracając czas potrzebny na podejmowanie strategicznych decyzji opartych na danych.
 ---
 
 ## 📁 Repository Structure
 ```text
 📂 ecommerce-sales-marketing-analysis
 │
-├── 1_data_cleaning_and_analysis.sql    # Pełny skrypt PostgreSQL (ETL, czyszczenie, funkcje okna)
-├── 2_customer_segmentation_report.xlsx # Raport menedżerski Excel (Tabele przestawne, segmentacja)
-├── 3_ecommerce_marketing_dashboard.pbix# Plik źródłowy modelu danych i dashboardu Power BI
+├── 1_data_cleaning_and_analysis.sql    
+├── 2_customer_segmentation_report.xlsx 
+├── 3_ecommerce_marketing_dashboard.pbix
 │
-├── dashboard_page_1.png                # Rzut ekranu strony 1: Analiza Sprzedaży
-└── dashboard_page_2.png                # Rzut ekranu strony 2: Struktura Marketingowa
+├── dashboard_page_1.png                
+└── dashboard_page_2.png                
